@@ -225,7 +225,6 @@ export default {
       mock.onGet('/mockData/getChannel').reply(config => {
           let {page,times,status,cnlName} = config.params;
           let mockChannels = _Channels.filter(bannerTapData => {
-              if (times[0]<bannerTapData.times && times[1]>bannerTapData.times) return false;
               return true;
           });
           let total = mockChannels.length;
