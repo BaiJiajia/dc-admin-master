@@ -238,6 +238,41 @@ export default {
               }, 1000);
           });
       });
+      //新增渠道
+      mock.onGet('/mockData/addChannel').reply(config => {
+          let { cnlName , tips } = config.params;
+          _Channels.push({
+              cnlName: cnlName,
+              tips: tips,
+          });
+          return new Promise((resolve, reject) => {
+              setTimeout(() => {
+                  resolve([200, {
+                      code: 200,
+                      msg: '新增成功'
+                  }]);
+              }, 500);
+          });
+      });
+      //编辑渠道信息
+      mock.onGet('/mockData/editChannel').reply(config => {
+          let { id,cnlName,tips } = config.params;
+          _Channels.some(u => {
+              if (u.id === id) {
+                  u.cnlName = cnlName;
+                  u.tips = tips;
+                  return true;
+              }
+          });
+          return new Promise((resolve, reject) => {
+              setTimeout(() => {
+                  resolve([200, {
+                      code: 200,
+                      msg: '编辑成功'
+                  }]);
+              }, 500);
+          });
+      });
       // 获取推广数据列表
       mock.onGet('/mockData/getSpread').reply(config => {
           let {page,times,checkedChannel} = config.params;
