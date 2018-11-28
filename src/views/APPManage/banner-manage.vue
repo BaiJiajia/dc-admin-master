@@ -32,20 +32,20 @@
         </el-col>
 
         <!--banner列表-->
-        <el-row>
-            <el-col :span="8" v-for="item in bannerList" >
-                <el-card :body-style="{ padding: '0px' }">
-                    <img :src="item.imageUrl" class="image">
-                    <div style="padding: 14px;">
-                        <span>{{item.title}}</span>
-                        <span>{{item.urlAddr}}</span>
-                        <div class="bottom clearfix">
-                            <el-button type="text" class="button">操作按钮</el-button>
-                        </div>
-                    </div>
-                </el-card>
-            </el-col>
-        </el-row>
+        <!--<el-row>-->
+            <!--<el-col :span="8" v-for="item in bannerList" >-->
+                <!--<el-card :body-style="{ padding: '0px' }">-->
+                    <!--<img :src="item.imageUrl" class="image">-->
+                    <!--<div style="padding: 14px;">-->
+                        <!--<span>{{item.title}}</span>-->
+                        <!--<span>{{item.urlAddr}}</span>-->
+                        <!--<div class="bottom clearfix">-->
+                            <!--<el-button type="text" class="button">操作按钮</el-button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</el-card>-->
+            <!--</el-col>-->
+        <!--</el-row>-->
 
     </section>
 </template>

@@ -36,6 +36,10 @@ export const getUserOrder = params => { return axios.get(`${base}/mockData/getUs
 
 export const getChannel = params => { return axios.get(`${base}/mockData/getChannel`, { params: params }); };//获取渠道列表数据
 
+export const addChannel = params => { return axios.get(`${base}/mockData/addChannel`, { params: params }); };//新增渠道
+
+export const editChannel = params => { return axios.get(`${base}/mockData/editChannel`, { params: params }); };//新增渠道
+
 export const getSpread = params => { return axios.get(`${base}/mockData/getSpread`, { params: params }); };//获取推广数据列表数据
 
 export const getShowBanners = params => { return axios.get(`${base}/mockData/getShowBanners`, { params: params }); };//获取显示banner列表数据
