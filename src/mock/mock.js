@@ -340,6 +340,19 @@ export default {
               }, 500);
           });
       });
+      //删除推送信息
+      mock.onGet('/mockData/removeBanner').reply(config => {
+          let { id } = config.params;
+          _ShowBanners = _ShowBanners.filter(u => u.id !== id);
+          return new Promise((resolve, reject) => {
+              setTimeout(() => {
+                  resolve([200, {
+                      code: 200,
+                      msg: '删除成功'
+                  }]);
+              }, 500);
+          });
+      });
     //删除用户
     mock.onGet('/user/remove').reply(config => {
       let { id } = config.params;

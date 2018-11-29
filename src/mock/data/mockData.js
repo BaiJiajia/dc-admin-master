@@ -85,10 +85,10 @@ for (let i = 0; i < 16; i++) {
     }));
 }
 const ShowBanners = [];
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i < 5; i++) {
     ShowBanners.push(Mock.mock({
         id: Mock.Random.guid(),
-        imageUrl:'http://img03.tooopen.com/uploadfile/downs/images/20110714/sy_20110714135215645030.jpg',
+        imageUrl:'/assets/logo.png',
         title:Mock.Random.cword(3),
         urlAddr:'http://www.baidu.com',
         sort:Mock.Random.natural(0,30),

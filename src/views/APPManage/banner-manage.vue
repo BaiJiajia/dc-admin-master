@@ -14,7 +14,8 @@
                             :on-success="handleAvatarSuccess"
                             :before-upload="beforeAvatarUpload">
                         <img v-if="addForm.imageUrl" :src="addForm.imageUrl" class="avatar">
-                        <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+                        <i v-else class="el-icon-plus
+                        avatar-uploader-icon"></i>
                     </el-upload>
                 </el-form-item>
                 <el-form-item label="链接地址"  prop="urlAddr">
@@ -28,30 +29,35 @@
                     <el-button @click.native="resetForm" :loading="addLoading">清空</el-button>
                 </el-form-item>
             </el-form>
-
         </el-col>
-
         <!--banner列表-->
-        <!--<el-row>-->
-            <!--<el-col :span="8" v-for="item in bannerList" >-->
-                <!--<el-card :body-style="{ padding: '0px' }">-->
-                    <!--<img :src="item.imageUrl" class="image">-->
-                    <!--<div style="padding: 14px;">-->
-                        <!--<span>{{item.title}}</span>-->
-                        <!--<span>{{item.urlAddr}}</span>-->
-                        <!--<div class="bottom clearfix">-->
-                            <!--<el-button type="text" class="button">操作按钮</el-button>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</el-card>-->
-            <!--</el-col>-->
-        <!--</el-row>-->
-
+        <el-col >
+            <div class="card-wrap">
+                <div class="card-box" :style="width" v-model="bannerList">
+                    <el-card v-for="(item ,index) in bannerList" :body-style="{ padding: '10px' }">
+                        <!--<img :src="item.imageUrl" class="image">-->
+                        <div class="img-box"><img src="../../../src/assets/logo.png" class="image"></div>
+                        <div style="padding: 14px;">
+                            <div>{{item.title}}</div>
+                            <div>{{item.urlAddr}}</div>
+                            <div >排序:
+                                <el-input :class={inputBorder:item.readOnly} v-model="item.sort" :readonly="item.readOnly"></el-input>
+                            </div>
+                            <div class="bottom clearfix">
+                                <el-button type="text" @click.native="handleDelete(item.id)" class="button">删除</el-button>
+                                <el-button type="text" v-show="item.readOnly" class="button" @click.native="editSort(index,item.id)">排序</el-button>
+                                <el-button type="text" v-show="!item.readOnly" class="button" @click.native="submitSort(index,item.id)">完成</el-button>
+                            </div>
+                        </div>
+                    </el-card>
+                </div>
+            </div>
+        </el-col>
     </section>
 </template>
 <script>
     import util from '../../common/js/util'
-    import { getShowBanners,removePushMessage,addBanner} from '../../api/api';
+    import { getShowBanners,removeBanner,addBanner} from '../../api/api';
     export default {
         data() {
             return {
@@ -62,6 +68,7 @@
                     urlAddr: '',
                     sort: ''
                 },
+                width:'width:0',
                 listLoading: false,
                 addLoading: false,
                 addFormRules: {
@@ -103,8 +110,11 @@
                 getShowBanners(para).then((res) => {
                     this.total = res.data.total;
                     this.bannerList = res.data.bannerList;
+                    for(let value of this.bannerList){
+                        this.$set(value, 'readOnly', true)
+                    }
+                    this.width = 'width:'+this.bannerList.length*360+'px;';
                     this.listLoading = false;
-                    console.table(this.bannerList);
                 });
 
 
@@ -130,6 +140,33 @@
                         });
                     }
                 });
+            },
+            handleDelete(val) {
+                this.$confirm('确认删除该记录吗?', '提示', {
+                    type: 'warning'
+                }).then(() => {
+                    this.listLoading = true;
+                    //NProgress.start();
+                    let para = { id: val};
+                    removeBanner(para).then((res) => {
+                        this.listLoading = false;
+                        //NProgress.done();
+                        this.$message({
+                            message: '删除成功',
+                            type: 'success'
+                        });
+                        this.getShowBannersList();
+                    });
+                }).catch(() => {
+                });
+            },
+//            编辑排序
+            editSort(index,id) {
+                this.$set(this.bannerList[index],'readOnly',false)
+            },
+//            提交排序
+            submitSort(index,id) {
+                this.$set(this.bannerList[index],'readOnly',true);
             },
 //            清空form
             resetForm:function () {
@@ -157,15 +194,15 @@
         }
     }
 </script>
-<style>
-     .el-upload {
+<style scoped>
+    .el-upload {
         border: 1px dashed #d9d9d9;
         border-radius: 6px;
         cursor: pointer;
         position: relative;
         overflow: hidden;
     }
-     .el-upload:hover {
+    .el-upload:hover {
         border-color: #409EFF;
     }
     .avatar-uploader-icon {
@@ -180,5 +217,40 @@
         width: 278px;
         height: 178px;
         display: block;
+    }
+    .card-wrap{
+        overflow: auto;
+        border: 1px solid #ccc;
+    }
+   .card-box{
+       overflow:hidden;
+       width: auto;
+   }
+    .card-box .el-card{
+        width: 300px;
+        float: left;
+        margin: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .img-box{
+        width: 100%;
+        height:200px;
+
+    }
+    .img-box img{
+        width: 100%;
+        height:100%;}
+
+
+</style>
+<style>
+    .card-box .el-input{
+        display: inline-block;width: 60px;
+    }
+    .inputBorder .el-input__inner{
+        border:none;
     }
 </style>

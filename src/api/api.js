@@ -45,3 +45,5 @@ export const getSpread = params => { return axios.get(`${base}/mockData/getSprea
 export const getShowBanners = params => { return axios.get(`${base}/mockData/getShowBanners`, { params: params }); };//获取显示banner列表数据
 
 export const addBanner = params => { return axios.get(`${base}/mockData/addBanner`, { params: params }); };//新增banner
+
+export const removeBanner = params => { return axios.get(`${base}/mockData/removeBanner`, { params: params }); };//删除banner
