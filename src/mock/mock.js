@@ -2,7 +2,7 @@ import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import { LoginUsers, Users } from './data/user';
 import { BannerTap } from './data/bannerTapData';
-import { messageList,feedBackList,OrderTap,NewUsers,UserOrders,Channels,SpreadData,ShowBanners } from './data/mockData';
+import { messageList,feedBackList,OrderTap,NewUsers,UserOrders,Channels,SpreadData,ShowBanners,Loans } from './data/mockData';
 let _Users = Users;
 let _bannerTap = BannerTap;
 let _messageList = messageList;
@@ -12,7 +12,7 @@ let _NewUsers = NewUsers;
 let _UserOrders = UserOrders;
 let _Channels = Channels;
 let _SpreadData = SpreadData;
-let _ShowBanners = ShowBanners;
+let _Loans = Loans;
 
 
 
@@ -340,7 +340,25 @@ export default {
               }, 500);
           });
       });
-      //删除推送信息
+      //编辑banner排序
+    mock.onGet('/mockData/editSort').reply(config => {
+        let { id,sort } = config.params;
+        _ShowBanners.some(u => {
+          if (u.id === id) {
+            u.sort = sort;
+            return true;
+          }
+        });
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve([200, {
+              code: 200,
+              msg: '编辑成功'
+            }]);
+          }, 500);
+        });
+      });
+      //删除banner
       mock.onGet('/mockData/removeBanner').reply(config => {
           let { id } = config.params;
           _ShowBanners = _ShowBanners.filter(u => u.id !== id);
@@ -353,6 +371,18 @@ export default {
               }, 500);
           });
       });
+      // 获取小贷列表
+      mock.onGet('/mockData/getAllLoan').reply(config => {
+        let total = _Loans.length;
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve([200, {
+                    total: total,
+                    allLoanList: _Loans
+                }]);
+            }, 1000);
+        });
+    });
     //删除用户
     mock.onGet('/user/remove').reply(config => {
       let { id } = config.params;

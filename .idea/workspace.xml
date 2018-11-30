@@ -2,205 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8730a0-b39a-44f8-a599-5fa7a13c1de8" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/logo4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/fonts/element-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/fonts/element-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/fonts/element-icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/fonts/element-icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/check-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dev-client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/dev-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/dev.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/prod.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/alert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/badge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/breadcrumb-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/button-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/carousel-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/cascader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/checkbox-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/col.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/collapse-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/collapse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/color-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/date-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/form-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/input-number.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/loading.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu-item-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/message-box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/notification.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/option-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/option.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/popover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio-button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/radio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/rate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/select-dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/steps.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/submenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/switch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tab-pane.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/table-column.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/time-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/time-select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-darkblue/upload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/alert.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/badge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/breadcrumb-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/button-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/carousel-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/cascader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/checkbox-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/col.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/collapse-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/collapse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/color-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/date-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown-menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/form-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/input-number.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/loading.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu-item-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/message-box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/notification.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/option-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/option.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/popover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio-button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/radio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/rate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/select-dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/steps.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/submenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/switch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tab-pane.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/table-column.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/time-picker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/time-select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/theme/theme-green/upload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/data/bannerTapData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/data/mockData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/data/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/mock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/404.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/APPManage/all-loan.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/APPManage/banner-manage.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/APPManage/index-loan.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/APPManage/push-message.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/APPManage/user-feedback.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/Home.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/Login.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/Main.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/charts/echarts.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav1/Form.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav1/Table.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav1/user.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav2/Page4.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav2/Page5.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/nav3/Page6.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/banner-tap.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/channel-list.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/channel-set.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/new-user-detail.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/new-user.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/order-tap.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/spread-data.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/operateData/user-order.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vuex/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vuex/getters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vuex/store.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dc-admin-master.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/operateData/new-user-detail.vue" afterPath="$PROJECT_DIR$/src/views/operateData/new-user-detail.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -213,12 +16,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mock/mock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="8600">
+              <caret line="348" column="33" lean-forward="false" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner-manage.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/APPManage/banner-manage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="184" column="13" lean-forward="false" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+              <folding>
+                <element signature="e#4265#4740#0" expanded="false" />
+                <element signature="e#5481#6430#0" expanded="false" />
+                <element signature="e#6462#7159#0" expanded="false" />
+                <element signature="n#style#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mockData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mock/data/mockData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -226,8 +74,47 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addFormVisible</find>
+      <find>addForm</find>
+      <find>options</find>
+      <find>addFormRules</find>
+      <find>handleAdd</find>
+      <find>handleNew</find>
+      <find>editSubmit</find>
+      <find>id</find>
+      <find>.id</find>
+      <find>editFormVisible</find>
+      <find>handleEdit</find>
+      <find>addSubmit</find>
+      <find>listLoading</find>
+      <find>handleDelete</find>
+      <find>sort-box</find>
+      <find>bannerList</find>
+      <find>row</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\baijj\dc-admin\dc-admin-master\src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/views/operateData/channel-set.vue" />
+        <option value="$PROJECT_DIR$/src/views/APPManage/all-loan.vue" />
+        <option value="$PROJECT_DIR$/src/api/api.js" />
+        <option value="$PROJECT_DIR$/src/mock/mock.js" />
+        <option value="$PROJECT_DIR$/src/mock/data/mockData.js" />
+        <option value="$PROJECT_DIR$/src/views/APPManage/banner-manage.vue" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -287,14 +174,40 @@
               <item name="dc-admin-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="dc-admin-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dc-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dc-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dc-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dc-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dc-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dc-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="APPManage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dc-admin-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dc-admin-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="nav1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,9 +215,10 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/bai佳佳工作/preciseCode/HotelManage/front/webapp" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,36 +242,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542362842241</updated>
-      <workItem from="1542362843514" duration="155000" />
+      <workItem from="1542362843514" duration="754000" />
+      <workItem from="1542592744023" duration="829000" />
+      <workItem from="1543299150144" duration="10813000" />
+      <workItem from="1543365575946" duration="24740000" />
+      <workItem from="1543538234036" duration="111000" />
+      <workItem from="1543547351167" duration="14000" />
     </task>
+    <task id="LOCAL-00001" summary="推广设置mock修改">
+      <created>1543303778121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543303778121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mock新增渠道">
+      <created>1543365695348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543365695348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增渠道api">
+      <created>1543373193043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543373193043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="banner排序">
+      <created>1543453808050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543453808050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155000" />
+    <option name="totallyTimeSpent" value="37261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,16 +314,309 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="推广设置mock修改" />
+    <MESSAGE value="mock新增渠道" />
+    <MESSAGE value="新增渠道api" />
+    <MESSAGE value="banner排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="banner排序" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mock/mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8700">
+          <caret line="348" column="33" lean-forward="false" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/mockData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/banner-manage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4600">
+          <caret line="184" column="13" lean-forward="true" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+          <folding>
+            <element signature="e#4265#4740#0" expanded="false" />
+            <element signature="e#5481#6430#0" expanded="false" />
+            <element signature="e#6462#7159#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/banner-manage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+          <folding>
+            <element signature="e#4265#4740#0" expanded="false" />
+            <element signature="e#5481#6430#0" expanded="false" />
+            <element signature="e#6462#7159#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/mockData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="88" column="32" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/operateData/channel-set.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/push-message.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="103" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="85" lean-forward="false" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/banner-manage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="e#4265#4740#0" expanded="false" />
+            <element signature="e#5481#6430#0" expanded="false" />
+            <element signature="e#6462#7159#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6475">
+          <caret line="263" column="30" lean-forward="true" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/bannerTapData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Form.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/operateData/channel-set.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/logo4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/all-loan.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/user-feedback.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2830">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/index-loan.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/operateData/user-order.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="164" column="8" lean-forward="true" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/push-message.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3861">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8600">
+          <caret line="348" column="33" lean-forward="false" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/nav1/Table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mock/data/mockData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/APPManage/banner-manage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="184" column="13" lean-forward="false" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+          <folding>
+            <element signature="e#4265#4740#0" expanded="false" />
+            <element signature="e#5481#6430#0" expanded="false" />
+            <element signature="e#6462#7159#0" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

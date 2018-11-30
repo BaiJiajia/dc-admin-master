@@ -117,7 +117,6 @@
             },
             getUserOrderList:function() {
                 this.id = this.$route.query.id;
-                console.log(this.id)
                 let start = this.filters.timeValue[0];
                 let end = this.filters.timeValue[1];
                 start = this.GMT2Str(start);
@@ -143,7 +142,6 @@
                     date.getMinutes() + ':' +
                     date.getSeconds();
                 return Str
-
             }
         },
         created(){

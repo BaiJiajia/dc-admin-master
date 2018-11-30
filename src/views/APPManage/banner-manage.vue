@@ -34,18 +34,18 @@
         <el-col >
             <div class="card-wrap">
                 <div class="card-box" :style="width" v-model="bannerList">
-                    <el-card v-for="(item ,index) in bannerList" :body-style="{ padding: '10px' }">
+                    <el-card v-for="(item ,index) in bannerList" :body-style="{ padding: '10px' }" :key="index">
                         <!--<img :src="item.imageUrl" class="image">-->
                         <div class="img-box"><img src="../../../src/assets/logo.png" class="image"></div>
                         <div style="padding: 14px;">
                             <div>{{item.title}}</div>
                             <div>{{item.urlAddr}}</div>
                             <div >排序:
-                                <el-input :class={inputBorder:item.readOnly} v-model="item.sort" :readonly="item.readOnly"></el-input>
+                                <el-input :class={inputBorder:item.readOnly} v-model="item.sort" type="number" :readonly="item.readOnly"></el-input>
                             </div>
                             <div class="bottom clearfix">
                                 <el-button type="text" @click.native="handleDelete(item.id)" class="button">删除</el-button>
-                                <el-button type="text" v-show="item.readOnly" class="button" @click.native="editSort(index,item.id)">排序</el-button>
+                                <el-button type="text" v-show="item.readOnly" class="button" @click.native="toSorting(index,item.id)">排序</el-button>
                                 <el-button type="text" v-show="!item.readOnly" class="button" @click.native="submitSort(index,item.id)">完成</el-button>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
 </template>
 <script>
     import util from '../../common/js/util'
-    import { getShowBanners,removeBanner,addBanner} from '../../api/api';
+    import { getShowBanners,removeBanner,addBanner,editSort} from '../../api/api';
     export default {
         data() {
             return {
@@ -161,12 +161,22 @@
                 });
             },
 //            编辑排序
-            editSort(index,id) {
+            toSorting(index,id) {
                 this.$set(this.bannerList[index],'readOnly',false)
             },
 //            提交排序
-            submitSort(index,id) {
-                this.$set(this.bannerList[index],'readOnly',true);
+            submitSort(index,id) {  
+                let para = { id,sort:this.bannerList[index].sort };
+                editSort(para).then((res) => {
+                    this.$message({
+                        message: '修改成功',
+                        type: 'success'
+                    });
+                    this.$set(this.bannerList[index],'readOnly',true);
+                    this.getShowBannersList();
+                    console.log(this.bannerList[index].sort);
+                });
+                
             },
 //            清空form
             resetForm:function () {

@@ -95,4 +95,13 @@ for (let i = 0; i < 5; i++) {
     }));
 }
 
-export { messageList,feedBackList,OrderTap,NewUsers,UserOrders,Channels,SpreadData,ShowBanners };
+const Loans = [];
+for (let i = 0; i < 10; i++) {
+    Loans.push(Mock.mock({
+        id: Mock.Random.guid(),
+        loanName:Mock.Random.cword(3),
+        online:Mock.Random.boolean()
+    }));
+}
+
+export { messageList,feedBackList,OrderTap,NewUsers,UserOrders,Channels,SpreadData,ShowBanners,Loans };

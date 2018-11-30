@@ -47,3 +47,7 @@ export const getShowBanners = params => { return axios.get(`${base}/mockData/get
 export const addBanner = params => { return axios.get(`${base}/mockData/addBanner`, { params: params }); };//新增banner
 
 export const removeBanner = params => { return axios.get(`${base}/mockData/removeBanner`, { params: params }); };//删除banner
+
+export const editSort = params => { return axios.get(`${base}/mockData/editSort`, { params: params }); };//修改banner的排序
+getAllLoan
+export const getAllLoan = params => { return axios.get(`${base}/mockData/getAllLoan`, { params: params }); };//获取显示banner列表数据
